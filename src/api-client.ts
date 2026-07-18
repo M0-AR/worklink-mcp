@@ -1,5 +1,5 @@
 const BASE_URL = "https://worklink.sy/api/partner";
-const REQUEST_TIMEOUT_MS = 30_000;
+const REQUEST_TIMEOUT_MS = 120_000;
 const MAX_RETRIES = 3;
 const RETRY_BASE_MS = 1_000;
 
