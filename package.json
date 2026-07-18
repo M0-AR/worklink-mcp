@@ -1,6 +1,6 @@
 {
   "name": "worklink-mcp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP server for WorkLink Partner API — search Syria jobs and tenders",
   "main": "dist/index.js",
   "mcpName": "worklink-mcp",
