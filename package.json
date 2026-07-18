@@ -1,0 +1,37 @@
+{
+  "name": "worklink-mcp",
+  "version": "1.0.1",
+  "description": "MCP server for WorkLink Partner API — search Syria jobs and tenders",
+  "main": "dist/index.js",
+  "mcpName": "worklink-mcp",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["mcp", "worklink", "syria", "jobs", "tenders"],
+  "author": "md-ar",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "bin": {
+    "worklink-mcp": "dist/index.js"
+  },
+  "files": ["dist/**/*", "README.md", "LICENSE"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
+}

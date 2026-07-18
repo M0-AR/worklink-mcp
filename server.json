@@ -1,0 +1,10 @@
+{
+  "mcpName": "worklink-mcp",
+  "displayName": "WorkLink MCP Server",
+  "description": "MCP server for WorkLink Partner API — search live job vacancies and tenders in Syria",
+  "version": "1.0.1",
+  "repository": "https://github.com/md-ar/worklink-mcp",
+  "homepage": "https://github.com/md-ar/worklink-mcp",
+  "author": "md-ar",
+  "license": "MIT"
+}
